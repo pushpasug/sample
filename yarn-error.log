@@ -1,0 +1,46 @@
+Arguments: 
+  /home/ubuntu/.nvm/versions/node/v13.7.0/bin/node /home/ubuntu/.nvm/versions/node/v13.7.0/bin/yarn add v1.22.4
+
+PATH: 
+  /home/ubuntu/.nvm/versions/node/v13.7.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/.rvm/bin:/home/ubuntu/.rvm/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  13.7.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/v1.22.4: Not found
+      at Request.params.callback [as _callback] (/home/ubuntu/.nvm/versions/node/v13.7.0/lib/node_modules/yarn/lib/cli.js:66992:18)
+      at Request.self.callback (/home/ubuntu/.nvm/versions/node/v13.7.0/lib/node_modules/yarn/lib/cli.js:140763:22)
+      at Request.emit (events.js:321:20)
+      at Request.<anonymous> (/home/ubuntu/.nvm/versions/node/v13.7.0/lib/node_modules/yarn/lib/cli.js:141735:10)
+      at Request.emit (events.js:321:20)
+      at IncomingMessage.<anonymous> (/home/ubuntu/.nvm/versions/node/v13.7.0/lib/node_modules/yarn/lib/cli.js:141657:12)
+      at Object.onceWrapper (events.js:427:28)
+      at IncomingMessage.emit (events.js:333:22)
+      at endReadableNT (_stream_readable.js:1201:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "sample",
+    "private": true,
+    "dependencies": {
+      "@rails/ujs": "^6.0.0",
+      "turbolinks": "^5.2.0",
+      "@rails/activestorage": "^6.0.0",
+      "@rails/actioncable": "^6.0.0"
+    },
+    "version": "0.1.0"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
